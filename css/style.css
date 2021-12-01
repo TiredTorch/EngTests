@@ -135,11 +135,11 @@ body .pop-up p {
 
 @media screen and (max-width: 768px) {
   body nav span {
-    font-size: 3vh;
+    font-size: 2vh;
     margin-left: 0;
   }
   body nav button {
-    font-size: 2.5vh;
+    font-size: 1.5vh;
     margin-left: 0;
     width: 100%;
   }
@@ -165,9 +165,9 @@ body .pop-up p {
     font-size: 3vh;
   }
   body .pop-up h2 {
-    font-size: 6vh;
+    font-size: 5vh;
   }
   body .pop-up p {
-    font-size: 4vh;
+    font-size: 3vh;
   }
 }
