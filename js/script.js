@@ -1,4 +1,3 @@
-screen.orientation.lock('landscape');
 
 const score = {
     good : 0,
