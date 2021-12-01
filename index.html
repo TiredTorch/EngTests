@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Eng</title>
+</head>
+<body>
+    <nav class="">
+        <span>Выберете уровень сложности</span>
+        <div class="dif__items">
+            <div class="dif__item">
+                <span>Легкий</span>
+                <input type="radio" name="dif">
+            </div>
+            <div class="dif__item">
+                <span>Средний</span>
+                <input type="radio" name="dif">
+            </div>
+            <div class="dif__item">
+                <span>Трудный</span>
+                <input type="radio" name="dif">
+            </div>
+        </div>
+        <button onclick="Start()">Начать тестирование</button>
+    </nav>
+    <section>
+        <h3 id="difff">Уровень сложности: </h3>
+        <div class="pic_wrapper">
+            <span id="rusWord">
+
+            </span>
+        </div>
+        <div class="score">
+            <span id="good">-</span>
+            <span id="bad">-</span>
+        </div>
+        <input type="text" placeholder="Введите перевод" id="inpt"> 
+        <button id="check" >Проверить</button>  
+    </section>
+    <div class="pop-up">
+        <h2>Проверьте ваш уровень английского языка</h2>
+        <p>Переведите на английский слова. Для начала укажите уровень сложности</p>
+    </div>
+    <script src="http://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
